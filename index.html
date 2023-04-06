@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="decoration">
+        <section class="container">
+            <h1 class="title_" onclick="letterAnimation()">Formulário de Cadastro</h1>
+            <ul>
+                <li>Nenhum campo pode estar vazio</li>
+                <li>Usuário só poderá conter letra e/ou números</li>
+                <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+                <li>Senha precisa ter entre 6 e 12 caracteres</li>
+            </ul>
+            <form action="" class="forms">
+                <label for="Nome">Nome</label>
+                <input class="input" type="text" name="" id="Nome">
+                <label for="Sobrenome">Sobrenome</label>
+                <input class="input" type="text" name="" id="Sobrenome">
+                <label for="CPF">CPF</label>
+                <input class="input" type="text" name="" id="CPF">
+                <label for="Usuario">Usuário</label>
+                <input class="input" type="text" name="" id="Usuario">
+                <label for="senha">Senha</label>
+                <input class="input" type="password" name="" id="senha">
+                <label for="rsenha">Repetir Senha</label>
+                <input class="input" type="password" name="" id="rsenha">
+            </form>
+        <button class="send" onclick="new ValidaFormulario()">Enviar</button>
+        </section>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
